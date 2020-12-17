@@ -1,5 +1,5 @@
-def find_even_values(src)
-  src.each do |sb|
-    sb.each { |n| puts n if n % 2 == 0 }
+def find_even_values(arr)
+  arr.each do |sub_arr|
+    sub_arr.each { |num| puts num if num % 2 == 0 }
   end
 end
